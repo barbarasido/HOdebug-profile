@@ -11,7 +11,12 @@ int add_array(int *a, int *b, int n){
 }
 
 int main(int argc, char **argv) {
-  int a[3], b[3];
+  int a[5], b[5];
+  a[4]=0;
+ b[4]=0;
+ a[5]=0;
+ a[5]=0;
+    
   int n = 3;
   int i, sum;
   for (i = 0; i < n; i++) {

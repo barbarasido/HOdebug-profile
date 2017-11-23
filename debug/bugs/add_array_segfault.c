@@ -13,6 +13,8 @@ int add_array(int *a, int *b, int n){
 int main(int argc, char **argv) {
   int *a, *b;
   int n = 3;
+  a=(int*)malloc(3*sizeof(int));    
+  b=(int*)malloc(3*sizeof(int));
   int i, sum;
   for (i = 0; i < n; i++) {
     a[i] = i;
